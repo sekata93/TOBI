@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "ls -l node_modules/firebase && vite build",
     "preview": "vite preview",
-    "postinstall": "npm install firebase@9.22.2"
+  
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -17,6 +17,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "firebase": "9.17.2"
+  },
+  "engines": {
+    "node": "20.x"
   },
   "devDependencies": {
     "vite": "^5.2.0"
