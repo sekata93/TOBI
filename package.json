@@ -4,8 +4,8 @@
   "description": "Aplikasi kasir online responsif, siap diakses dari HP dan desktop.",
   "scripts": {
     "dev": "vite",
-    "build": "ls -l node_modules/firebase && vite build",
-    "preview": "vite preview",
+    "build": "vite build",
+    "preview": "vite preview"
   
   },
   "dependencies": {
